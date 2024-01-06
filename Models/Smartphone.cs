@@ -1,13 +1,19 @@
+using System.Reflection;
+
 namespace DesafioPOO.Models
 {
     public abstract class Smartphone
     {
         public string Numero { get; set; }
+        public string Modelo { get; set; }
+         public string Marca { get; set; }
         // TODO: Implementar as propriedades faltantes de acordo com o diagrama
 
-        public Smartphone(string numero)
+        public Smartphone(string numero, string modelo)
         {
             Numero = numero;
+            Modelo = Module;
+            Marca = marca;
             // TODO: Passar os parâmetros do construtor para as propriedades
         }
 
